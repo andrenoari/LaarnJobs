@@ -31,7 +31,7 @@ export default function Footer() {
               flexDirection={{ base: 'column', md: 'row' }}
               py="4"
             >
-              <NextLink href="/" aria-label="YellowJobs Logo">
+              <NextLink href="/" aria-label="LaarnJobs Logo">
                 <Link>
                   <LaarnJobsLogo />
                 </Link>
