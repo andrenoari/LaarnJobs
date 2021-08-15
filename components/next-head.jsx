@@ -20,7 +20,7 @@ export default function NextHead({
       {/* <meta name="description" content={desc} /> */}
 
       {/* <!-- open graph --> */}
-      {/* <meta property="og:site_name" content="YellowJobs" />
+      {/* <meta property="og:site_name" content="LaarnJobs" />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={url} />
       <meta property="og:title" content={title} />
@@ -39,11 +39,11 @@ export default function NextHead({
         content="Curated remote job posts updated every minutes. Across tech, design, sales, content and a lot more!"
       />
 
-      <meta property="og:url" content="https://www.yellowjobs.org/" />
+      <meta property="og:url" content="https://laarnjobs.vercel.app/" />
       <meta property="og:type" content="website" />
       <meta
         property="og:title"
-        content="YellowJobs-Helping you find your dream remote gig #remotejob"
+        content="LaarnJobs-Helping you find your dream remote gig #remotejob"
       />
       <meta
         property="og:description"
@@ -51,15 +51,15 @@ export default function NextHead({
       />
       <meta
         property="og:image"
-        content="https://www.yellowjobs.org/preview.png"
+        content="https://laarnjobs.vercel.app/preview.png"
       />
 
       <meta name="twitter:card" content="summary_large_image" />
-      <meta property="twitter:domain" content="yellowjobs.org" />
-      <meta property="twitter:url" content="https://www.yellowjobs.org/" />
+      <meta property="twitter:domain" content="laarnify" />
+      <meta property="twitter:url" content="https://laarnjobs.vercel.app/" />
       <meta
         name="twitter:title"
-        content="YellowJobs-Helping you find your dream remote gig #remotejob"
+        content="LaarnJobs-Helping you find your dream remote gig #remotejob"
       />
       <meta
         name="twitter:description"
@@ -67,7 +67,7 @@ export default function NextHead({
       />
       <meta
         name="twitter:image"
-        content="https://www.yellowjobs.org/preview.png"
+        content="https://laarnjobs.vercel.app/preview.png"
       />
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
     </Head>
