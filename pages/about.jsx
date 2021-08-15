@@ -1,10 +1,10 @@
 import * as React from 'react'
 import Navbar from 'components/navbar'
 import Footer from 'components/footer'
-import Profile from 'components/profile--'
+import Profile from 'components/profilee'
 import { Box, Container, Text, Heading, Center, Image, Button } from '@chakra-ui/react'
 import { SimpleGrid } from '@chakra-ui/react'
-import { TeamData } from 'lib/TeamProfile--'
+import { TeamData } from 'lib/TeamProfilee'
 
 const AboutPage = () => {
   return (
