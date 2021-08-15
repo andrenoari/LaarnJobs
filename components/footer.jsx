@@ -57,7 +57,36 @@ export default function Footer() {
               flexDirection={{ base: 'column', md: 'row' }}
               py="4"
             >
-              
+              {/*<Link href="mailto:hello@yellowjobs.org" fontWeight="bold">
+              hello@yellowjobs.org
+            </Link>
+            <Spacer />*/}
+              <Flex w="full" justify="space-between">
+                <Link mx="5" href="https://github.com/catoverse/" isExternal>
+                  <GitHubIcon />
+                </Link>
+                <Spacer />
+                <Link
+                  mx="5"
+                  href="https://twitter.com/yellowjobsorg"
+                  isExternal
+                >
+                  <TwitterIcon />
+                </Link>
+                <Spacer />
+                <Link
+                  mx="5"
+                  href="https://www.linkedin.com/company/navgurukul/"
+                  isExternal
+                >
+                  <LinkedInIcon />
+                </Link>
+              </Flex>
+            </Flex>
+          </Flex>
+        </Container>
+      </Container>
+                
       <Container maxW="container.xl" centerContent>
         <Flex
           flexDirection={{ base: 'column', md: 'row' }}
