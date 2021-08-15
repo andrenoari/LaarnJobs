@@ -25,9 +25,7 @@ const AboutPage = () => {
             mr={['1rem', '5rem', '7rem']}
             align="center"
           >
-            YellowJobs is an open source project by NavGurukul Labs. NavGurukul
-            Labs is a venture studio working on high impact open source
-            experiments in the education and future of work space.
+            LaarnJobs is an open source project cloned from Catoverse.
           </Text>
         </Center>
       </Container>
@@ -42,10 +40,10 @@ const AboutPage = () => {
         <Box px="5" pb="10">
           <SimpleGrid columns={[1, null, 2]}>
             <Center>
-              <Image src="partners/pfolk1.png" w="50%" />
+              <Image src="partners/pfolk1--.png" w="50%" />
             </Center>
             <Center>
-              <Image src="partners/navgurukul.png" w="50%" />
+              <Image src="partners/navgurukul--.png" w="50%" />
             </Center>
           </SimpleGrid>
         </Box>
