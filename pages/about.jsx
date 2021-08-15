@@ -25,7 +25,7 @@ const AboutPage = () => {
             mr={['1rem', '5rem', '7rem']}
             align="center"
           >
-            LaarnJobs is an open source project cloned from Catoverse.
+            LaarnJobs is an open source project cloned from Catoverse YellowJobs.
           </Text>
         </Center>
       </Container>
