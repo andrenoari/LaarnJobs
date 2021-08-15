@@ -9,7 +9,7 @@ import {
 } from '@chakra-ui/react'
 
 import NextLink from 'next/link'
-import YellowJobsLogo from './icons/logo.svg'
+import LaarnJobsLogo from './icons/LaarnJobsLogo.svg'
 import GitHubIcon from './icons/github.svg'
 import TwitterIcon from './icons/twitter.svg'
 import LinkedInIcon from './icons/linkedin.svg'
@@ -33,7 +33,7 @@ export default function Footer() {
             >
               <NextLink href="/" aria-label="YellowJobs Logo">
                 <Link>
-                  <YellowJobsLogo />
+                  <LaarnJobsLogo />
                 </Link>
               </NextLink>
               <Spacer />
@@ -102,7 +102,7 @@ export default function Footer() {
           <Flex align="center" py="2">
             Powered by
             <Link
-              href="https://vercel.com/?utm_source=Yellowjobs&utm_campaign=oss"
+              href="https://vercel.com/"
               isExternal
             >
               <Box ml="2">
