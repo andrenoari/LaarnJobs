@@ -17,7 +17,7 @@ import NextLink from 'next/link'
 import { useRef, useState, useEffect } from 'react'
 
 import Container from 'components/container'
-import YellowJobsLogo from './icons/logo.svg'
+import LaarnJobsLogo from './icons/LaarnJobsLogo.svg'
 import { AiOutlineMenu } from 'react-icons/ai'
 import { useViewportScroll } from 'framer-motion'
 
@@ -63,7 +63,7 @@ export default function Headers() {
         variant="ghost"
         _hover={{ bg: 'white', textDecoration: 'underline' }}
       >
-        <Link href="/about">About Us</Link>
+        <Link href="/about">About</Link>
       </Button>
       <Button
         w="full"
@@ -91,10 +91,10 @@ export default function Headers() {
         <Container>
           <Flex w="full" h="full" align="center" justify="space-between">
             <Flex align="center">
-              <NextLink href="/" aria-label="YellowJobs Logo">
+              <NextLink href="/" aria-label="LaarnJobs Logo">
                 <Link>
                   <HStack>
-                    <YellowJobsLogo />
+                    <LaarnJobsLogo />
                     {process.env.VERCEL_ENV == 'production' ? (
                       ''
                     ) : (
@@ -114,7 +114,7 @@ export default function Headers() {
               display={{ base: 'none', md: 'flex' }}
             >
               <Box _hover={{ color: 'gray.500' }}>
-                <NextLink href="/about">About Us</NextLink>
+                <NextLink href="/about">About</NextLink>
               </Box>
               <Box _hover={{ color: 'gray.500' }}>
                 <NextLink href="/disclaimer">Disclaimer</NextLink>
