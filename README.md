@@ -1,6 +1,6 @@
 ![](https://www.yellowjobs.org/)
 
-# YellowJobs Frontend Repo
+# LaarnJobs Frontend Repo
 
 Curating job posts from Twitter to make it easier to find the right startup remote job.
 
