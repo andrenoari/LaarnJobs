@@ -1,4 +1,4 @@
-![](https://www.yellowjobs.org/preview.png)
+![](https://www.yellowjobs.org/)
 
 # YellowJobs Frontend Repo
 
